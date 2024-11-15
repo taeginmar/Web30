@@ -1,0 +1,228 @@
+body{
+    display: inline;
+    font-family: Poppins,serif;
+    color: whitesmoke;
+    background: #DE5C8E;
+}
+p{
+    font-family: Anuphan;
+    font-weight: 600;
+    font-size: 25px;
+}
+h1{
+    font-family: Anuphan;
+}
+::-webkit-scrollbar{
+    width: 10px;
+}
+::-webkit-scrollbar-track{
+    background: #ffffff;
+}
+::-webkit-scrollbar-thumb{
+    background: #DE5C8E;
+    border-radius: 33px 4px 4px 33px;
+}
+.navbar{
+    z-index: 1;
+    display: flex;
+    /*border: 1px solid white;*/
+    height: 100px;
+    box-shadow: 0px 6px 7px 4px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    position: fixed;
+    background-color: white;
+}
+.logo{
+    position: relative;
+    right: 20px;
+    color: #DE5C8E;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   /*border: 1px solid white;*/
+}
+.logo h1 a{
+    font-family: Merriweather Static;
+    text-decoration: none;
+    color: #DE5C8E;
+    margin-left: 50px;
+    width: 500px;
+    /*border: 1px solid rgb(0, 0, 0);*/
+    font-size: 40px;
+}
+ul{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   /*border: 1px solid white;*/
+    list-style: none;
+}
+ul li{
+    position: relative;
+    left:25%;
+    margin: 0 1rem;
+}
+ul li a{
+    color: #DE5C8E;
+    text-decoration: none;
+    transition: .4s;
+}
+ul li a:visited {
+    color: #DE5C8E;
+    text-decoration: none;
+}
+ul li a:hover {
+    color: rgb(255, 255, 255);
+    background-color: #DE5C8E;
+    padding:10px;
+    border-radius: 10px;
+    transition: .3s;
+    transform: scale(1.3);
+    cursor: pointer;
+}
+.project{
+    background-color: #ffffff;
+    height: 2200px;
+}
+.deny{
+    height: 500px;
+    background-color: #444;
+    border: 1px solid  #444;
+}
+.deny h1{
+    position: relative;
+    top: 90px;
+    left: 20%;
+    color: #fff;
+    font-size: 100px;
+    text-align: center;
+    text-shadow: 1px 1px 2px rgba(68, 68, 68, 0.8);
+    width: 1000px;
+}
+.deny h3{
+    width: 800px;
+    font-size: 50px;
+    position: relative;
+    left: 32%;
+    top: 10px;
+    text-shadow: 1px 1px 2px rgba(68, 68, 68, 0.8);
+}
+.project_list{
+    position: relative;
+    top:77px;
+    height: 500px;
+}
+.project_list h1{
+    position: relative;
+    font-size: 50px;
+    left: 40px;
+    width: 1000px;
+    color: #DE5C8E;
+}
+.project_list img{
+    position: relative;
+    left: 65%;
+    bottom: 400px;
+    width: 500px;
+}
+.project_list p{
+    position: relative;
+    left: 40px;
+    bottom: 25px;
+    font-weight: 400;
+    width: 800px;
+    color: #DE5C8E;
+}
+#grey{
+    background-color: #eeeeee;
+}
+#grey h1{
+    position: relative;
+    top:40px;
+}
+#grey p{
+    position: relative;
+    top:15px;
+}
+#ex{
+    position: relative;
+    bottom:50px;
+}
+.img_design a{
+    width: 800px;
+    position: relative;
+    right: 8.5%;
+    bottom: 20px;
+}
+.img_design a img{
+    margin: 0 2rem;
+    width: 250px;
+}
+/*tail of website*/
+.address{
+    height: 400px;
+}
+.address1{
+    position: relative;
+    width: 450px;
+    left:30%;
+    bottom:15%;
+}
+.address1 h1{
+    font-size: 35px;
+    margin:0.5rem 0;
+}
+.address2{
+    width: 400px;
+    position: relative;
+    left: 65%;
+    bottom: 77%;
+    border:2px solid #DE5C8E;
+}
+.address2 h1{
+    font-size: 30px;
+    border:2px solid #DE5C8E;
+}
+.address2 ul {
+    position: relative;
+    bottom: 80%;
+    right: 65%;
+}
+.icon{
+    border:2px solid #DE5C8E;
+    height: 30px;
+}
+.icon i{
+    font-size: 30px;
+}
+.address p{
+    position: relative;
+    bottom: 10px;
+}
+.logo2{
+    text-align: center;
+    position: relative;
+    left:40px;
+    top:25px;
+    width:250px;
+}
+.logo2 h1{
+    font-family: Merriweather Static;
+    font-size: 40px;
+}
+footer{
+    position: relative;
+    top:21px;
+    border: 1px solid white;
+    background-color: white;
+    justify-content: baseline;
+    height: 60px;
+}
+footer p{
+    font-size: 20px;
+    color: #DE5C8E;
+    align-items: center;
+    text-align: center;
+}
